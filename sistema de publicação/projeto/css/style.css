@@ -1,0 +1,51 @@
+*{margin: 0px; padding: 0px;}
+
+body{background-color: #eee;}
+
+.row{margin: 0px; padding: 0px;}
+.small{font-size: 13px;}
+.post-content{background-color: #FFF; box-shadow: 0px 0px 1px 0px #999; border-radius: 1px; padding: 10px;}
+.post-content h4{font-weight: normal;}
+.post-content img{width: 150px; height: 120px;}
+.post-content .button{text-align: right; padding: 10px;}
+.post-content .button .btn-info{border-radius: 0px; padding: 5px 25px 5px 25px;}
+
+
+.admin-form{background-color: #FFF; padding: 0px; margin: 0px; box-shadow: 0px 0px 1px 0px #888;}
+.admin-form-title{padding: 15px; text-align: center; font-size: 25px; background-color: #471b31; color: #FFF; box-shadow: 0px 0px 1px 0px #888;}
+.admin-form-body{padding: 15px;}
+.admin-form-body .form-control{border-radius: 0px; padding: 20px 10px 20px 10px;}
+.admin-form-body .btn-outline-primary{border-radius: 0px;}
+
+
+#menu-principal{background-color: #461831; margin: 0px; padding: 0px;}
+#menu-principal .title{background-color: #461831; padding: 10px;}
+#menu-principal .title a{color: #FFF; font-weight: bold; text-transform: uppercase;}
+#menu-principal ul{list-style: none;}
+#menu-principal ul a{text-decoration: none;}
+#menu-principal .sub{background-color: #461831; box-shadow: 0px 0px 1px 0px #555; padding: 5px;}
+#menu-principal .sub a{color: #999;}
+#menu-principal .sub a::before{content: "\00BB"; padding-right: 5px;}
+#menu-principal .menu{background-color: #461831; box-shadow: 0px 0px 1px 0px #888; padding: 5px;}
+#menu-principal .menu a{color: #FFF;}
+#menu-principal .menu:hover{background-color: #461831;}
+
+#form-publicar{background-color: #FFF; padding: 5px; margin: 0px;}
+#form-publicar .form-control{border-radius: 0px;}
+#form-publicar .btn-outline-primary{border-radius: 0px;}
+#form-publicar .btn-primary{border-radius: 0px;}
+
+#fullpost-content{box-shadow:  0px 0px 1px 0px #666; background-color: #FFF; border-radius: 0px;}
+#fullpost-content h4{padding: 15px;}
+#fullpost-content .body{padding: 15px;}
+/* Efetua alterações apenas em dispositivos desktop + */
+@media(min-width:992px){
+	.content{margin-right: 15%;}
+}
+
+/* Efetua alterações apenas em dispositivos menores que desktop */
+@media(max-width:992px){
+	.col-sm-9{padding: 0px; margin-top: 10px;}
+}
+
+
