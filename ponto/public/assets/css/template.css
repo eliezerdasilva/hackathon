@@ -22,7 +22,7 @@ body.hide-sidebar {
 header.header {
     grid-area: header;
     display: flex;
-    background-color: #792972;
+    background-color: #641b58;
     align-items: center;
     z-index: 10;
     box-shadow: 
@@ -185,7 +185,7 @@ main.content {
     margin: 20px;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 25px 0px rgba(241, 239, 239, 0.2);
 }
 
 main.content .content-title {
@@ -220,8 +220,8 @@ footer.footer {
     padding-right: 20px;
     font-size: 1.2rem;
     grid-area: footer;
-    background-color: rgb(255, 255, 255);
-    color: rgb(102, 17, 69);
+    background-color: rgb(92, 32, 77);
+    color: #FFF;
 }
 
 .record {

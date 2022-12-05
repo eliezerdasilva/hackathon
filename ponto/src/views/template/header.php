@@ -8,16 +8,15 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/icofont.min.css">
     <link rel="stylesheet" href="assets/css/template.css">
-    <title>Gerenciamento de Reserva</title>
+    <title>Gerenciamento </title>
 </head>
 <body>
     <header class="header">
         <div class="logo">
-        
-        <i class="icofont-address-book ml-2"></i>
-
-        <span class="ml-2font-weight-lightmx-3">Gerenciamento </span>
-           
+        <i class="icofont-listing-box mr-2"></i>
+            <span class="font-weight-light">  Gerenciamento</span>
+       
+    
         </div>
         <div class="menu-toggle mx-3">
             <i class="icofont-navigation-menu"></i>
@@ -25,7 +24,7 @@
         <div class="spacer"></div>
         <div class="dropdown">
             <div class="dropdown-button">
-                <i  class="icofont-settings-alt"<?= md5(strtolower(trim($_SESSION['user']->email))) ?> alt="user"></i>
+                <i class="icofont-exit" <?=  md5(strtolower(trim($_SESSION['user']->email))) ?> alt="user"></i>
                 <span class="ml-3">
                     <?= $_SESSION['user']->name ?>
                 </span>
@@ -35,7 +34,7 @@
                 <ul class="nav-list">
                     <li class="nav-item">
                         <a href="logout.php">
-                           
+                            <i class="icofont-logout mr-2"></i>
                             Sair
                         </a>
                     </li>

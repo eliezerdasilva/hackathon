@@ -3,13 +3,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(255, 255, 255);
+    background-color: #DDD;
 }
 
 .form-login {
     flex-basis: 450px;
-   
-
 }
 
 .login-card .card-header {
@@ -17,11 +15,11 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 1.8rem;
-    background-color: rgb(110, 60, 108);
+    background-color: rgb(118, 61, 129);
 }
 
 .login-card .card-footer {
-    background-color: rgb(110, 60, 108);
     display: flex;
     justify-content: flex-end;
+    background-color:rgb(118, 61, 129) ;
 }

@@ -16,8 +16,8 @@
         <thead>
             <th>Nome</th>
             <th>Email</th>
-            <th>Data de Emprestimo </th>
-            <th>Data de Entrega</th>
+            <th>Data de Emprestimo</th>
+            <th>Data de Devolução</th>
             <th>Situacao</th>
             <th>Ações</th>
         </thead>

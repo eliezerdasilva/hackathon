@@ -7,9 +7,7 @@
                     Usuários
                 </a>
             </li>
-       
         </ul>
     </nav>
     
-    </div>
 </aside>
