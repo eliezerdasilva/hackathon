@@ -8,17 +8,16 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/icofont.min.css">
     <link rel="stylesheet" href="assets/css/login.css">
-    <title>In N' Out</title>
+    <title>Gerencimento de Emprestimo</title>
 </head>
 <body>
     <form class="form-login" action="#" method="post">
         <div class="login-card card">
             <div class="card-header">
-                <i class="icofont-travelling mr-2"></i>
-                <span class="font-weight-light">In </span>
-                <span class="font-weight-bold mx-2">N'</span>
-                <span class="font-weight-light">Out</span>
-                <i class="icofont-runner-alt-1 ml-2"></i>
+                <i class="fas fa-bars"></i>
+                <i class="icofont-navigation-menu mr-2"></i>
+                <span class="font-weight-light">Gerenciamento</span>
+                <i  class="icofont-cloud ml-2"></i>
             </div>
             <div class="card-body">
                 <?php include(TEMPLATE_PATH . '/messages.php') ?>
@@ -43,7 +42,7 @@
                 </div>
             </div>
             <div class="card-footer">
-                <button class="btn btn-lg btn-primary">Entrar</button>
+                <button class="btn btn-lg btn-success">Entrar</button>
             </div>
         </div>
     </form>

@@ -16,9 +16,9 @@
         <thead>
             <th>Nome</th>
             <th>Email</th>
-            <th>Data de Admissão</th>
-            <th>Data de Desligamento</th>
-            <th>situacao</th>
+            <th>Data de Emprestimo </th>
+            <th>Data de Entrega</th>
+            <th>Situacao</th>
             <th>Ações</th>
         </thead>
         <tbody>
