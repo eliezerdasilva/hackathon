@@ -33,7 +33,7 @@
         </div>
         <div class="form-row">
             <div class="form-group col-md-6">
-                <label for="password">Senha</label>
+                <label for="password">Cpf</label>
                 <input type="password" id="password" name="password" placeholder="Informe a senha"
                     class="form-control <?= $errors['password'] ? 'is-invalid' : '' ?>">
                 <div class="invalid-feedback">
@@ -41,7 +41,7 @@
                 </div>
             </div>
             <div class="form-group col-md-6">
-                <label for="confirm_password">Confirmação de Senha</label>
+                <label for="confirm_password">Cpf confirmação</label>
                 <input type="password" id="confirm_password" name="confirm_password"
                     placeholder="Confirme a senha"
                     class="form-control <?= $errors['confirm_password'] ? 'is-invalid' : '' ?>">
@@ -70,7 +70,7 @@
                 </div>
             </div>
             <div class="form-group col-md-6">
-                <label for="situacao">situacao</label>
+                <label for="situacao">Situação</label>
                 <input type="situacao" id="situacao" name="situacao"
                     class="form-control <?= $errors['situacao'] ? 'is-invalid' : '' ?>"
                     value="<?= $end_date ?>">
@@ -79,18 +79,6 @@
                 </div>
             </div>
         </div>
-        <div class="form-row">
-            <div class="form-group col-md-6">
-                <label for="is_admin">Administrador?</label>
-                <input type="checkbox" id="is_admin" name="is_admin"
-                    class="form-control <?= $errors['is_admin'] ? 'is-invalid' : '' ?>"
-                    <?= $is_admin ? 'checked' : '' ?>>
-                <div class="invalid-feedback">
-                    <?= $errors['is_admin'] ?>
-                </div>
-            </div>
-        </div>
-        <div>
             <button class="btn btn-primary btn-lg">Salvar</button>
             <a href="/users.php"
                 class="btn btn-secondary btn-lg">Cancelar</a>
