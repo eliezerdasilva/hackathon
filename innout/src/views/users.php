@@ -18,7 +18,6 @@
             <th>Email</th>
             <th>Data de Admissão</th>
             <th>Data de Desligamento</th>
-            <th>situacao</th>
             <th>Ações</th>
         </thead>
         <tbody>
@@ -28,7 +27,6 @@
                     <td><?= $user->email ?></td>
                     <td><?= $user->start_date ?></td>
                     <td><?= $user->end_date ?></td>
-                    <td><?= $user->situacao ?></td>
                     <td>
                         <a href="save_user.php?update=<?= $user->id ?>" 
                             class="btn btn-warning rounded-circle mr-2">

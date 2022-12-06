@@ -3,21 +3,32 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #DDD;
+    background-color: rgb(137, 101, 235);
 }
 
 .form-login {
     flex-basis: 450px;
+    
 }
 
 .login-card .card-header {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.8rem;
+    font-size: 1.8rem;    
+
 }
 
 .login-card .card-footer {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-end;     
+}
+/* Efetua alterações apenas em dispositivos desktop + */
+@media(min-width:992px){
+	.content{margin-right: 15%;}
+}
+
+/* Efetua alterações apenas em dispositivos menores que desktop */
+@media(max-width:992px){
+	.col-sm-9{padding: 0px; margin-top: 10px;}
 }

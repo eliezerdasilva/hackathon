@@ -8,8 +8,7 @@ class User extends Model {
         'email',
         'start_date',
         'end_date',
-        'is_admin',
-        'situacao'
+        'is_admin'
     ];
 
     public static function getActiveUsersCount() {
@@ -60,11 +59,6 @@ class User extends Model {
 
         if(!$this->confirm_password) {
             $errors['confirm_password'] = 'Confirmação de Senha é um campo abrigatório.';
-        }
-        if(!$this->situacao) {
-            $errors['situacao'] = 'situacao é obrigatoria';
-        } elseif(!filter_var($this->situacao)) {
-            $errors['situacao'] = 'situacao inválido.';
         }
 
         if($this->password && $this->confirm_password 

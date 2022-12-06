@@ -10,7 +10,7 @@
     ?>
 
     <form action="#" method="post">
-      
+        <input type="hidden" name="id" value="<?= $id ?>">
         <div class="form-row">
             <div class="form-group col-md-6">
                 <label for="name">Nome</label>
@@ -67,15 +67,6 @@
                     value="<?= $end_date ?>">
                 <div class="invalid-feedback">
                     <?= $errors['end_date'] ?>
-                </div>
-            </div>
-            <div class="form-group col-md-6">
-                <label for="situacao">situacao</label>
-                <input type="situacao" id="situacao" name="situacao"
-                    class="form-control <?= $errors['situacao'] ? 'is-invalid' : '' ?>"
-                    value="<?= $end_date ?>">
-                <div class="invalid-feedback">
-                    <?= $errors['situacao'] ?>
                 </div>
             </div>
         </div>

@@ -8,16 +8,15 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/icofont.min.css">
     <link rel="stylesheet" href="assets/css/template.css">
-    <title>In N' Out</title>
+    <title>Gerenciador</title>
 </head>
 <body>
     <header class="header">
         <div class="logo">
-            <i class="icofont-travelling mr-2"></i>
-            <span class="font-weight-light">In </span>
-            <span class="font-weight-bold mx-2">N'</span>
-            <span class="font-weight-light">Out</span>
-            <i class="icofont-runner-alt-1 ml-2"></i>
+        <i class="icofont-address-book mr-2 "></i>
+            <span class="font-weight-light">Gerenciador </span>
+
+ 
         </div>
         <div class="menu-toggle mx-3">
             <i class="icofont-navigation-menu"></i>
