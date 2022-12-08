@@ -3,5 +3,5 @@
 	$data = date('d/m/Y H:i');
 
 	//Coloque o url do seu site!!
-	$url = "http://localhost/";
+	$url = "http://localhost";
 ?>
